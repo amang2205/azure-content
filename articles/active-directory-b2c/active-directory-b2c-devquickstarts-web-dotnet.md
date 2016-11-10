@@ -70,9 +70,9 @@ Your app communicates with Azure AD B2C by sending authentication messages that 
 To begin, add the OWIN middleware NuGet packages to the project by using the Visual Studio Package Manager Console.
 
 ```
-PM> Install-Package Microsoft.Owin.Security.OpenIdConnect
-PM> Install-Package Microsoft.Owin.Security.Cookies
-PM> Install-Package Microsoft.Owin.Host.SystemWeb
+Install-Package Microsoft.Owin.Security.OpenIdConnect
+Install-Package Microsoft.Owin.Security.Cookies
+Install-Package Microsoft.Owin.Host.SystemWeb
 ```
 
 Next, open the `web.config` file in the root of the project and enter your app's configuration values in the `<appSettings>` section, replacing the existing values.
